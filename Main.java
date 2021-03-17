@@ -6,21 +6,21 @@
 import javax.swing.JOptionPane;
 import java.util.*;
 
-public class TBGameGenerator {
+public class GameGenerator {
 	
 	// Private Instance Variables
 		
-	private TBBoard board;
-	private TBPlayer playerY;
-	private TBPlayer playerR;
-	private TBPlayer currentPlayer;
+	private Board board;
+	private Player playerY;
+	private Player playerR;
+	private Player currentPlayer;
 	private int currentRound;
 	
 	private ArrayList<String> winners;
 	
 	
 	// Default Constructor
-	public TBGameGenerator() {
+	public GameGenerator() {
 
 		// Using the default constructors of TBBoard and TBPlayer class
 		// to initiate a new board object, two new player objects, and a winner tracking ArrayList
@@ -34,7 +34,7 @@ public class TBGameGenerator {
 	}
 	
 	// Overloaded Constructor
-	public TBGameGenerator(int cusRows, int cusCols) {
+	public GameGenerator(int cusRows, int cusCols) {
 
 		// Using the default constructors of TBBoard and TBPlayer class
 		// to initiate a new board object, two new player objects, and a winner tracking ArrayList
