@@ -14,7 +14,7 @@ public class Player {
 
 	
 	// Default Constructor
-	public TBPlayer() {
+	public Player() {
 		checkerSymbol = "";
 		identity = "";
 	}
